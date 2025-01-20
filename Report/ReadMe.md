@@ -10,7 +10,7 @@
   - chân OE kính hoạt mức thấp và MR kích hoạt mức cao 
 - cách hoạt động
   - Chân data chịu trách nhiệm nhận đầu vào dữ liệu khi có xung cạnh tích cực của xung nhịp và nó tiếp tục nhận dữ liệu. Những dữ liệu từ thanh ghi dịch chỉ di chuyển sang thanh ghi lưu trữ khi chúng ta kích tín hiệu mức cao của chân Latch để chốt chân đầu vào. Từ đó chuyển tín hiệu xuất ra các chân Q1 - Q7, Q7'.
-  - 
+    ![](https://blog.mecsu.vn/wp-content/uploads/2021/10/Nguyen-ly-lam-viec-cua-thanh-ghi-dich-74HC595.gif)
 
 ## Debounce Button
 - Nguyên lý hoạt động
