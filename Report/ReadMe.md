@@ -56,7 +56,7 @@
 
 - cách điều khiển
 để đèn sáng ta chỉ cần xuất tín hiệu mức cao vào chân của thanh led đó
-```
+```cpp
 byte value = 0b01111111; xuất tín hiệu mức cao vào cả 7 chân led
 void loop(){
    digitalWrite(latchPin1, LOW);
@@ -99,12 +99,12 @@ void rainy(){
     }
 }
 ```
-    
-  - link code :
+
+ - link code: [linkcode](https://github.com/HoangAnh301194/Studying/blob/main/Report/Control_8_LED_with_74HC595.ino)
 - điều khiển led 7 đoạn với IC 74hc595
   - code nguyên lý
       - tạo mảng các byte dữ liệu các số từ 0 đến 9 
-```
+```cppcpp
 const byte numbers[] = {
   0b00111111, // 0
   0b00000110, // 1
@@ -120,7 +120,7 @@ const byte numbers[] = {
 
 ```
 sau đó duyệt mảng và gửi dữ liệu tới IC 75HC595 để điều khiển các thanh led
-```
+```cpp
 void displaySingleDigit(byte value) {
   digitalWrite(latchPin1, LOW);
   shiftOut(dataPin1, clockPin1, MSBFIRST, value);
@@ -135,7 +135,6 @@ void count() {
   }
 }
 ```
-  - link code:
 - điều khiển led 4 số
     - code nguyên lý:
         - tạo 1 mảng là chỉ số chân điều khiển các led 7 đoạn :
@@ -172,7 +171,7 @@ void displayFourDigits(int number) {
 }
 ```
 
-    - link code
+  - link code: [link](https://github.com/HoangAnh301194/Studying/blob/main/Report/ArrduinoNANO_proteus.ino)
 - video demo ( em mô phỏng cả 3 bài tập về button, nháy led , và chạy led 7 đoạn 1 và 4 số cùng 1 video luon ạ )
   [link Video YTB](https://youtu.be/-V8d1MRvUI0)
 ## C) Khó khăn 
