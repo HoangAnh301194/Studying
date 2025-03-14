@@ -306,7 +306,7 @@ Ngoài việc sử dụng thẻ lệnh HTML để tạo giao diện người dù
   
 ### 3) Video demo 
 - **link video** 
- <video controls src="videoDemo.mp4" title="Title"></video>
+ [video Demo](https://youtu.be/o9ese3CqDt4)
 ## B) Công việc tiếp theo
 ## C) Linh kiện mượn của Lab 
 - Không 
